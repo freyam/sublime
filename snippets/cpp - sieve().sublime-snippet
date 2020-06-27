@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+bool prime[90000005];
+vector<int> nthprime;
+void sieve() {
+	ll n = 90000005;
+	memset(prime,true,n);
+	prime[0] = prime[1] = false;
+
+	for (int i = 2 ; i*i <= n ; ++i)
+		if (prime[i])
+			for (int j = i*i ; j <= n ; j += i)
+				prime[j] = false;
+
+	for (int i = 2 ; i <= n ; ++i)
+		if (prime[i]) nthprime.pb(i);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sieve</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
