@@ -1,11 +1,11 @@
-### cp-windows-setup
-Windows Setup for Competitive Programming using C++ [Sublime Text 3]
+### Sublime for Competitive Programming
+A Clean Windows Setup for Competitive Programming using C++ [Sublime Text 3]
 
 ## Download
 Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages/Themes
-`CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their official [site](https://packagecontrol.io/)
+`CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their official [site](https://packagecontrol.io/).
 
 1. Agila Theme [Link](https://packagecontrol.io/packages/Agila%20Theme "Download Link")
 2. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
@@ -24,6 +24,11 @@ I like to have the code, input and output in front of my eyes as it makes it ver
 
 # My Setup
 ![Screenshot](/src/screenshot.png?raw=true "My Setup")
+
+## The Batch Files
+I have also included two batch files - `compile.bat` and `contest.bat` which help a lot.
+`compile.bat` precompiles the standard library. So, it reduces the compilation time roughly by a factor of 5.
+`contest.bat` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`. 
 
 ## Miscellaneous
 1. [A handy cheat sheat for all the hotkeys.](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet "Must Learn")
