@@ -2,7 +2,7 @@
 Windows Setup for Competitive Programming using C++ [Sublime Text 3]
 
 ## Download
-Sublime Text 3 [Link]9https://www.sublimetext.com/3 "Download Link")
+Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages/Themes
 `CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their official [site](https://packagecontrol.io/)
