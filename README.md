@@ -22,7 +22,6 @@ I like to have the code, input and output in front of my eyes as it makes it ver
 4. Now, click on `CTRL + K + UP` twice to send the input and output file to the new groups.
 5. You can drag the boundaries depending on your preferences.
 
-# My Setup
 ![Screenshot](/src/screenshot.png?raw=true "My Setup")
 
 ## The Batch Files
