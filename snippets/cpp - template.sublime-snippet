@@ -6,7 +6,7 @@ using namespace std;
 #define f first
 #define s second
 #define ins insert
-#define pb push_back
+#define eb emplace_back
 #define endl '\n'
 #define ll long long
 #define ld long double
