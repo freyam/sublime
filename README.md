@@ -1,5 +1,5 @@
 # Sublime for Competitive Programming
-A Clean Super Fast Competitive Programming Setup using C++ [Sublime Text 3 on Windows]
+A Clean Super Fast Competitive Programming Setup for C++ Programmers [Sublime Text 3 on Windows]
 
 ## Download
 Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
