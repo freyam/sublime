@@ -5,7 +5,7 @@ A Clean Super Fast Competitive Programming Setup for C++ Programmers [Sublime Te
 Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages/Themes
-`CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their official [site](https://packagecontrol.io/).
+`CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their [official site](https://packagecontrol.io/).
 
 1. Agila Theme [Link](https://packagecontrol.io/packages/Agila%20Theme "Download Link")
 2. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
