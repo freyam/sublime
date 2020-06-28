@@ -23,7 +23,7 @@ I like to have the code, input and output in front of my eyes as it makes it ver
 5. You can drag the boundaries depending on your preferences.
 
 # My Setup
-![Screenshot](/src/screenshot.jpg?raw=true "My Setup")
+![Screenshot](/src/screenshot.png?raw=true "My Setup")
 
 ## Miscellaneous
 1. [A handy cheat sheat for all the hotkeys.](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet "Must Learn")
