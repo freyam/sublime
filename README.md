@@ -33,9 +33,10 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 
 ## Miscellaneous
 1. [A handy cheat sheat for all the hotkeys.](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet "Must Learn")
-2. Run your code with `CTRL + B`. Sublime will take the input from the 'input' file and then print the output to the 'output' file.
-3. Load the snippets and the build config from the repo. I suggest using C++17 as it has more features than the older versions.
-3. Keep tinkering around with Sublime. It's really fun to play around with it.
+2. Start your program by typing `cpp`. It will call the `cpp-template` snippet and you can directly start coding.
+3. Run your code with `CTRL + B`. Sublime will take the input from the 'input' file and then print the output to the 'output' file.
+4. Load the snippets and the build config from the repo. I suggest using C++17 as it has more features than the older versions.
+5. Keep tinkering around with Sublime. It's really fun to play around with it.
 
 ## Sublime In Action
 ![SPEEEED!](/src/animation.gif "Sample Code")
