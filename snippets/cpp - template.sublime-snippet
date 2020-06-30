@@ -3,6 +3,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#include <bits/stdc++.h>
+using namespace std;
+
 #define f first
 #define s second
 #define ins insert
@@ -13,8 +16,6 @@ using namespace std;
 #define vi vector<int>
 #define vl vector<ll>
 #define ii pair<int,int>
-#define no cout << "NO" << endl
-#define yes cout << "YES" << endl
 #define tc int t; cin >> t; while (t--)
 #define sz(c) (int) (c).size()
 #define trav(x,c) for(auto &x : c)
@@ -25,10 +26,12 @@ using namespace std;
 #define db(x) cout << #x << ": " << x << endl;
 #define _db(c) trav(x,c) cout << x << " "; cout << endl;
 #define godspeed ios::sync_with_stdio(0); cin.tie(0);
+template<typename... T> void read(T&... x) {((cin >> x),...);}
+template<typename... T> void print(T&&... x) {((cout << x << " "),...);}
 
 int main() {
-	godspeed;
-	
+    godspeed;
+    
 }
 ]]></content>
 	<tabTrigger>cpp</tabTrigger>
