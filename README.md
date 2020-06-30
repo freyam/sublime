@@ -5,7 +5,7 @@ A Clean Super Fast Competitive Programming Setup for C++ Programmers [Sublime Te
 Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages/Themes
-`CTRL + ALT + P` to browse the Package Control from inside the app. You can search for the following packages or download them from their [official site](https://packagecontrol.io/).
+`CTRL + ALT + P` to browse the Package Control from inside the app. You can either search for the packages in-app or download directly them from their [official site](https://packagecontrol.io/).
 
 1. Agila Theme [Link](https://packagecontrol.io/packages/Agila%20Theme "Download Link")
 2. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
@@ -22,7 +22,7 @@ I like to have the code, input and output in front of my eyes as it makes it ver
 4. Now, click on `CTRL + K + UP` twice to send the input and output file to the new groups.
 5. You can drag the boundaries depending on your preferences.
 
-![Screenshot](/src/screenshot.png?raw=true "My Setup")
+
 
 ## The Batch Files
 I have also included two batch files - `compile.bat` and `contest.bat` which help a lot.
