@@ -14,7 +14,7 @@ Sublime Text 3 [Link](https://www.sublimetext.com/3 "Download Link")
 I use **Ayu Mirage** Theme and **Monokai Markdown** Color Scheme. 
 
 ## UI/UX
-I like to have the code, input and output in front of my eyes as it makes it very easy to compile and see the output in the text editor itself.
+I like to have the code, input and output in front of my eyes as it makes it very easy to compile and see the output in the text editor itself. This helps a lot while debugging and you dont need to use the Terminal at all. It's all in confined within the app.
 
 1. Download the 'setup' folder from the repo. Copy it to an easily accesible location on your PC (preferrably, Desktop or Documents).
 2. Open the folder in Sublime. Now, open the 3 files (code.cpp, input, output) from the sidebar.
