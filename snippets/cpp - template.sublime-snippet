@@ -3,9 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#include <bits/stdc++.h>
-using namespace std;
-
 #define f first
 #define s second
 #define ins insert
