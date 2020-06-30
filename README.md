@@ -38,6 +38,6 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 3. Keep tinkering around with Sublime. It's really fun to play around with it.
 
 ## Sublime In Action
-![SPEEEED!](/src/animation.gif "Sample Code")
+
 
 Made with :heart: by Freyam.
