@@ -40,4 +40,4 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 ## Sublime In Action
 ![SPEEEED!](/src/animation.gif "Sample Code")
 
-Enjoy `:)`
+Made with :heart: by Freyam.
