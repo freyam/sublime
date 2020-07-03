@@ -11,11 +11,12 @@ Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
 ## Packages/Themes
 `CTRL + ALT + P` to browse the Package Control from inside the app. You can either search for the packages in-app or download directly them from their [official site](https://packagecontrol.io/).
 
-1. Agila Theme [Link](https://packagecontrol.io/packages/Agila%20Theme "Download Link")
-2. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
+1. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
+2. 1337 Color Scheme [Link](https://packagecontrol.io/packages/1337%20Color%20Scheme "Download Link")
 3. SideBarEnhancements [Link](https://packagecontrol.io/packages/SideBarEnhancements "Download Link")
 
-I use **Ayu Mirage** Theme and **Monokai Markdown** Color Scheme. 
+**Theme: Ayu Dark**
+**Color Scheme: 1337**
 
 
 ## UI/UX
