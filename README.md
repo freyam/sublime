@@ -15,9 +15,6 @@ Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
 2. 1337 Color Scheme [Link](https://packagecontrol.io/packages/1337%20Color%20Scheme "Download Link")
 3. SideBarEnhancements [Link](https://packagecontrol.io/packages/SideBarEnhancements "Download Link")
 
-**Theme: Ayu Dark**
-**Color Scheme: 1337**
-
 
 ## UI/UX
 I like to have my code, the input parameters and the output of the program in front me as it helps a lot while debugging.
