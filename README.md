@@ -20,7 +20,7 @@ Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
 I like to have my code, the input parameters and the output of the program in front me as it helps a lot while debugging.
 
 1. Download the 'setup' folder from the repo. Copy it to an easily accesible location on your PC (preferrably, Desktop or Documents).
-2. Open the folder in Sublime. Now, open the 3 files (code.cpp, input, output) from the sidebar (`CTRL + K + B`).
+2. Open the folder in Sublime. Now, open the 3 files (code.cpp, input & output) from the sidebar (`CTRL + K + B`).
 3. Go to `View -> Groups` and select `Max Columns: 2`. 
 4. Now, click on `CTRL + K + UP` twice to send the input and output file to the new groups.
 5. You can drag the boundaries depending on your preferences.
