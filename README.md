@@ -32,9 +32,9 @@ I like to have my code, the input parameters and the output of the program in fr
 ## The Batch Files
 I have also included two batch files - `compile.bat` and `contest.bat` which help a lot.
 
-`compile.bat` precompiles the standard library <bits/stdc++.h>. So, it reduces the compilation time roughly by a factor of 5.
+1. `compile.bat` precompiles the standard library <bits/stdc++.h>. So, it reduces the compilation time roughly by a factor of 5.
 
-`contest.bat` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`.
+2. `contest.bat` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`.
 
 
 ## Miscellaneous
