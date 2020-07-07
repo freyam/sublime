@@ -9,15 +9,15 @@ Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
 
 
 ## UI - User Interface
-^Theme: Ayu [Download](https://packagecontrol.io/packages/ayu "Download Link")
+Theme: Ayu [Download](https://packagecontrol.io/packages/ayu "Download Link")
 
-^Color Scheme: 10% Too Dull for My Tastes [Download](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link")
+Color Scheme: 10% Too Dull for My Tastes [Download](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link")
 
-^Sidebar: SideBarEnhancements [Download](https://packagecontrol.io/packages/SideBarEnhancements "Download Link")
+Sidebar: SideBarEnhancements [Download](https://packagecontrol.io/packages/SideBarEnhancements "Download Link")
 
 Font: JetBrains Mono [Download](https://www.jetbrains.com/lp/mono/ "Download Link")
 
-^These can be downloaded from the **Package Control** which is also available in Sublime itself. To browse, `CTRL + SHIFT + P` --> `Package Control`
+These can be also downloaded from the **Package Control** which is also available in Sublime itself. To browse, `CTRL + SHIFT + P` --> `Package Control`
 
 ## UX - User Experience
 I like to have my code, the input parameters and the output of the program in front me as it helps a lot while debugging.
