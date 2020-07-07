@@ -12,7 +12,7 @@ Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
 `CTRL + ALT + P` to browse the Package Control from inside the app. You can either search for the packages in-app or download directly them from their [official site](https://packagecontrol.io/).
 
 1. Ayu Theme [Link](https://packagecontrol.io/packages/ayu "Download Link")
-2. 1337 Color Scheme [Link](https://packagecontrol.io/packages/1337%20Color%20Scheme "Download Link")
+2. 10% Too Dull for My Tastes Color Scheme [Link](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link")
 3. SideBarEnhancements [Link](https://packagecontrol.io/packages/SideBarEnhancements "Download Link")
 
 
@@ -26,7 +26,7 @@ I like to have my code, the input parameters and the output of the program in fr
 5. You can drag the boundaries depending on your preferences.
 
 
-![Screenshot](/src/theme.png?raw=true "My Setup")
+![Screenshot](/src/ui.png?raw=true "My Setup")
 
 
 ## The Batch Files
@@ -46,7 +46,7 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 
 
 ## Sublime In Action
-![SPEEEED!](/src/animation.gif "Sample Code")
+![SPEEEED!](/src/ux.gif "Sample Code")
 
 
 Made with :heart: by Freyam.
