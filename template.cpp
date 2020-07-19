@@ -20,7 +20,7 @@ using namespace std;
 #define _rfor(i,a,n) for(ll i = n-1 ; i >= a ; --i)
 #define dx(x) cout << #x << ": " << x << endl;
 #define dc(c) trav(x,c) cout << x << " "; cout << endl;
-#define dm(m) trav(x,m) cout << x.f << " " << x.s << endl; cout << endl;
+#define dm(m) trav(x,m) cout << x.f << "->" << x.s << endl;
 #define godspeed cin.tie(0) -> sync_with_stdio(0);
 
 int main() {
