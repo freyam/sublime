@@ -1,5 +1,5 @@
 # A Windows Setup for Programming Contests
-A Clean Super Fast Competitive Programming Setup for C++ Programmers [Sublime Text 3 on Windows]
+A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 3 on Windows]
 
 
 ## Download
