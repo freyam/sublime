@@ -1,11 +1,11 @@
 # A Windows Setup for Programming Contests
-A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 3 on Windows]
+A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 3]
 
 
 ## Prerequisites
-[**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
+> [**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
 
-[**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
+> [**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages
 
