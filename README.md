@@ -2,10 +2,10 @@
 A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 3 on Windows]
 
 
-## Download
-MinGW [Download](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
+## Prerequisites
+[**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
 
-Sublime Text 3 [Download](https://www.sublimetext.com/3 "Download Link")
+[**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages
 
@@ -56,4 +56,4 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 ![Sample Code](/src/ux.gif "Sample Code")
 
 
-Made with :heart: by Freyam.
+*Made with :heart: by Freyam.*
