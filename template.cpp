@@ -20,7 +20,7 @@ using ml = map<ll,ll>;
 #define per(i,a,n) for(ll i = n-1 ; i >= a ; --i)
 #define dx(x) cout << #x << ": " << x << endl;
 #define dc(c) itr(x,c) cout << x << " "; cout << endl;
-#define dm(m) itr(x,m) cout << x.f << "->" << x.s << endl;
+#define dm(m) itr(x,m) cout << x.ff << "->" << x.ss << endl;
 #define godspeed cin.tie(0) -> sync_with_stdio(0);
 
 int main() {
