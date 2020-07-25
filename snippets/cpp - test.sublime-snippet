@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ll n = 7; cin >> n;
+string s = "Test Passed!"; cin >> s;
+cerr << "(" << n << ") " << s << endl;
+]]></content>
+	<tabTrigger>test</tabTrigger>
+</snippet>
