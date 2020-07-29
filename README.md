@@ -19,8 +19,6 @@ A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 
 
 * [**10% Too Dull for My Tastes**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the Color Scheme.
 
-I use [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/ "Download Link") as my default font.
-
 These can be also downloaded from the **Package Control** which is also available in Sublime itself. To browse, `CTRL + SHIFT + P` --> `Package Control`.
 
 ## User Experience
@@ -34,7 +32,7 @@ I like to have my code, the input parameters and the output of the program in fr
 
 
 ![Screenshot](/src/ui.png?raw=true "My Setup")
-
+I use [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/ "Download Link") as my default font.
 
 ## The Batch Files
 I have also included two batch files - `compile.bat` and `contest.bat` which help a lot.
