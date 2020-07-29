@@ -51,7 +51,7 @@ I have also included two batch files - `compile.bat` and `contest.bat` which hel
 
 
 ## Sublime In Action
-![Sample Code](/src/ux.gif "Sample Code")
+![Sample Code](/src/experience.gif "Sample Code")
 
 
 *Made with :heart: by Freyam.*
