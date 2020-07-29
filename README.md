@@ -31,7 +31,7 @@ I like to have my code, the input parameters and the output of the program in fr
 5. You can drag the boundaries depending on your preferences.
 
 
-![Screenshot](/src/ui.png?raw=true "My Setup")
+
 I use [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/ "Download Link") as my default font.
 
 ## The Batch Files
