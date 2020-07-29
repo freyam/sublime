@@ -3,21 +3,21 @@ A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 
 
 
 ## Prerequisites
-> [**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
+* [**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
 
-> [**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
+* [**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
 
 ## Packages
 
-> [**SideBarEnhancements**](https://packagecontrol.io/packages/SideBarEnhancements "Download Link") for extra control over the SideBar Folders.
+* [**SideBarEnhancements**](https://packagecontrol.io/packages/SideBarEnhancements "Download Link") for extra control over the SideBar Folders.
 
-> [**Sublime Linter**](https://packagecontrol.io/packages/SublimeLinter "Download Link") for the Code Linting framework.
+* [**Sublime Linter**](https://packagecontrol.io/packages/SublimeLinter "Download Link") for the Code Linting framework.
 
-> [**Sublime Linter GCC**](https://packagecontrol.io/packages/SublimeLinter-gcc "Download Link") for C++ Linting.
+* [**Sublime Linter GCC**](https://packagecontrol.io/packages/SublimeLinter-gcc "Download Link") for C++ Linting.
 
-> [**Ayu Theme**](https://packagecontrol.io/packages/ayu "Download Link") for the Theme.
+* [**Ayu Theme**](https://packagecontrol.io/packages/ayu "Download Link") for the Theme.
 
-> [**10% Too Dull for My Tastes**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the Color Scheme.
+* [**10% Too Dull for My Tastes**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the Color Scheme.
 
 I use [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/ "Download Link") as my default font.
 
