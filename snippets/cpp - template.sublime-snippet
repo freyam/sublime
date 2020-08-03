@@ -22,7 +22,7 @@ using namespace std;
 
 int main() {
     godspeed;
-    
+    ${0}
 }
 ]]></content> 
 	<tabTrigger>cpp</tabTrigger> 
