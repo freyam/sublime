@@ -19,6 +19,8 @@ A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 
 
 * [**10% Too Dull for My Tastes**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the Color Scheme.
 
+* [**Terminal**](https://packagecontrol.io/packages/Terminal "Download Link") for running the programs in Terminal.
+
 These can be also downloaded from the **Package Control** which is also available in Sublime itself. To browse, `CTRL + SHIFT + P` --> `Package Control`.
 
 ## User Experience
