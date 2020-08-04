@@ -2,7 +2,6 @@
 
 set alpha=A B C D E F
 
-del input && del output
 .> input
 .> output
 
