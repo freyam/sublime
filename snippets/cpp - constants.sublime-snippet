@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+const ll MOD = 1e9 + 7; // 998244353;
+const ll MX = 2e5 + 5;
+const ll INF = 1e18;
+const ld PI = acos(-1.0);
+]]></content>
+	<tabTrigger>const</tabTrigger>
+</snippet>
