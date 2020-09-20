@@ -1,11 +1,18 @@
-# A Windows Setup for Programming Contests
+# Setup for Programming Contests
 A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 3]
 
 
 ## Prerequisites
+### Windows
 * [**MinGW**](https://sourceforge.net/projects/mingw/files/latest/download "Download Link")
 
 * [**Sublime Text 3**](https://www.sublimetext.com/3 "Download Link")
+
+### Linux (Ubuntu)
+* `g++` - `sudo apt install g++`
+
+* `sublime-text` - `sudo apt install sublime-text`
+
 
 ## Packages
 
@@ -26,7 +33,7 @@ These can be also downloaded from the **Package Control** which is also availabl
 ## User Experience
 I like to have my code, the input parameters and the output of the program in front me as it helps a lot while debugging.
 
-1. Download the 'setup' folder from the repo. Copy it to an easily accesible location on your PC (preferrably, Desktop or Documents).
+1. Download the 'cp' folder from the repo. Copy it to an easily accesible location on your PC (preferrably, Desktop or Documents).
 2. Open the folder in Sublime. Now, open the 3 files (code.cpp, input & output) from the sidebar (`CTRL + K + B`).
 3. Go to `View -> Groups` and select `Max Columns: 2`. 
 4. Now, click on `CTRL + K + UP` twice to send the input and output file to the new groups.
@@ -34,15 +41,16 @@ I like to have my code, the input parameters and the output of the program in fr
 
 
 ![Screenshot](/src/interface.png?raw=true "My Setup")
-I use [**JetBrains Mono**](https://www.jetbrains.com/lp/mono/ "Download Link") as my default font.
+I use **Consolas** as my default font.
 
-## The Batch Files
-I have also included two batch files - `compile.bat` and `contest.bat` which help a lot.
+## The Shell Scripts
+I have also included three shell scripts - `precompile`, `contest` and `terminate` which help a lot.
 
-1. `compile.bat` precompiles the standard library <bits/stdc++.h>. So, it reduces the compilation time roughly by a factor of 5.
+1. `precompile.bat`/`precompile.sh` precompiles the standard library <bits/stdc++.h>. So, it reduces the compilation time roughly by a factor of 5.
 
-2. `contest.bat` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`.
+2. `contest.bat`/`contest.sh` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`.
 
+3. `terminate.bat`/`terminate.sh` force kills and deletes all the executable files.
 
 ## Miscellaneous
 1. [A handy cheat sheat for all the hotkeys.](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet "Must Learn")
