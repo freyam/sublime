@@ -17,7 +17,5 @@ using namespace std;
 
 int main() {
     godspeed;
-    ll n = 7; cin >> n;
-    string s = "Test Passed!"; cin >> s;
-    cerr << "(" << n << ") " << s << endl;
+    
 }
