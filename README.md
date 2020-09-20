@@ -40,7 +40,7 @@ I like to have my code, the input parameters and the output of the program in fr
 5. You can drag the boundaries depending on your preferences.
 
 
-![Screenshot](/src/interface.png?raw=true "My Setup")
+![Screenshot](interface.png?raw=true "My Setup")
 I use **Consolas** as my default font.
 
 ## The Shell Scripts
@@ -61,7 +61,7 @@ I have also included three shell scripts - `precompile`, `contest` and `terminat
 
 
 ## Sublime In Action
-![Sample Code](/src/experience.gif "Sample Code")
+![Sample Code](experience.gif "Sample Code")
 
 
 *Made with :heart: by Freyam.*
