@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo > in.txt
-echo > out.txt
+> in.txt
+> out.txt
 
 alpha="A B C D E F"
 
