@@ -1,6 +1,23 @@
 {
-	"cmd" : "g++ -std=c++17 ${file_name} -o ${file_base_name}.exe && ${file_base_name}.exe <input.txt>output.txt",
-	"selector" : "source.cpp",
-	"shell" : true,
-	"working_dir" : "${file_path}"
+    "cmd": ["g++", "-Wall", "-Wl,--stack,256000000", "-std=c++17", "${file}", "-O2", "-o", "${file_path}/${file_base_name}"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c, source.c++",
+    "shell": true,
+    "variants":  [
+        {
+            "name": "Run",
+            "cmd": ["echo", "Running...", "&&", "start", "cmd", "/K", "${file_path}/${file_base_name}.exe && pause && exit"]
+        },
+        {
+            "name": "Run with input",
+            "cmd": ["echo", "Running...", "&&", "start", "cmd", "/K", "${file_path}/${file_base_name}.exe < in.txt && pause && exit"]
+        },
+        {
+            "name": "Run with input and output",
+            "cmd": ["echo", "Running...", "&&", "start", "cmd", "/C", "${file_path}/${file_base_name}.exe < in.txt > out.txt"]
+        },
+    ]
 }
+
+// credits to https://github.com/meooow25
