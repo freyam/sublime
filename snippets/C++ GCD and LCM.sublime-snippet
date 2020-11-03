@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+ll gcd(ll a, ll b) { 
+    ll temp; 
+    while (b) { 
+        temp = a%b; 
+        a = b; 
+        b = temp; 
+    } 
+    return a; 
+} 
+
+ll lcm (ll a, ll b) {
+	return (a*b)/gcd(a,b);
+}
+]]></content>
+	<tabTrigger>gcd</tabTrigger>
+</snippet>

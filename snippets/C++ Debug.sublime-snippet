@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+#define dx(x) cout << #x << " -> " << x << endl
+#define dv(v) cout << #v << " -> "; trv(x,v) cout << x << " "; cout << endl
+#define dm(m) cout << #m << " : " << endl; trv(x,m) cout << x.ff << " -> " << x.ss << endl
+]]></content>
+	<tabTrigger>dbg</tabTrigger>
+</snippet>

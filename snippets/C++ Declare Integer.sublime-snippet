@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+ll n; cin >> n;
+]]></content>
+	<tabTrigger>n</tabTrigger>
+</snippet>
