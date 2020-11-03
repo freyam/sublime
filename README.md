@@ -11,7 +11,7 @@ A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 
 ### Linux (Ubuntu)
 * `g++` - `sudo apt install g++`
 
-* `sublime-text` - `sudo apt install sublime-text`
+* `sublime-text` - `sudo snap install sublime-text`
 
 
 ## Packages
