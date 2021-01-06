@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ll ans = 0;
+
+${1}
+
+cout << ans << endl;
+]]></content>
+	<tabTrigger>ans</tabTrigger>
+</snippet>

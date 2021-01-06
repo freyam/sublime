@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+int main() {
+    ${1}
+}
+]]></content>
+	<tabTrigger>minimal</tabTrigger>
+</snippet>

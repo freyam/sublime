@@ -1,0 +1,12 @@
+<snippet> <content><![CDATA[
+void dfs(ll node) {
+    if(vis[node])
+        return;
+    vis[node] = true;
+    for(auto x : adj[node])
+        if(!vis[x])
+            dfs(x);
+}
+]]></content> 
+	<tabTrigger>dfs</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+cout << fixed << setprecision(10);
+]]></content>
+	<tabTrigger>setprecision</tabTrigger>
+</snippet>

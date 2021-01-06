@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+ll gcd (ll a, ll b) {
+    while (b) {
+        a = a % b;
+        swap(a, b);
+    }
+    return abs(a);
+}
+
+ll lcm (ll a, ll b) {
+    return a/gcd(a, b) * b;
+}
+]]></content>
+	<tabTrigger>gcdlcm</tabTrigger>
+</snippet>

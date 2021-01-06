@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+long long pwr(long long a, long long b, long long mod = 1e9 + 7){
+    long long x = 1;
+    while(b) {
+        if(b & 1) x = (x * a) % mod;
+        b >>= 1; a = (a * a) % mod;
+    }
+    return x;
+}
+]]></content>
+	<tabTrigger>pwr</tabTrigger>
+</snippet>
