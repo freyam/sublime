@@ -1,5 +1,0 @@
-<snippet> <content><![CDATA[
-vl v(n); rep(i,0,n) cin >> v[i];
-]]></content> 
-	<tabTrigger>vcin</tabTrigger> 
-</snippet>
