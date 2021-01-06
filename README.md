@@ -68,4 +68,5 @@ I have also included three shell scripts - `precompile`,  `contest` & `playgroun
 
 
 Keep tinkering around with Sublime. It's really fun to play around with it.
+
 *Made with :heart: by Freyam.*
