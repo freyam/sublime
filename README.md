@@ -53,12 +53,13 @@ I have also included three shell scripts - `precompile`,  `contest` & `playgroun
 
 
 ## Interface
+
+![My Interface](interface.png "My Interface")
+
 * Theme : Ayu Mirage
 * Color Scheme : Material Theme Darker
 * Icon Pack : A File Icon
 * Font : Consolas
-
-![Sample Code](experience.gif "Sample Code")
 
 
 ## Upcoming
