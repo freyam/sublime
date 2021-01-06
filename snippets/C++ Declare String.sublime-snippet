@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-string s; cin >> s;
-]]></content>
-	<tabTrigger>s</tabTrigger>
-</snippet>
