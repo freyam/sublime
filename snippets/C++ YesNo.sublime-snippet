@@ -1,7 +1,0 @@
-<snippet> <content><![CDATA[
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
-#define yesno (f) ? yes : no
-]]></content> 
-	<tabTrigger>yesno</tabTrigger>
-</snippet>
