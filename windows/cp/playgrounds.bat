@@ -3,8 +3,8 @@
 .> input.txt
 .> output.txt
 
-if NOT EXIST playground_A.cpp goto CREATE
-if EXIST playground_A.cpp goto CLEAN
+if NOT EXIST playground_1.cpp goto CREATE
+if EXIST playground_1.cpp goto CLEAN
 
 :CREATE
 for %%i in (1 2 3 4 5 6) do copy code.cpp playground_%%i.cpp
