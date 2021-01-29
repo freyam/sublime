@@ -1,7 +1,13 @@
 {
-	// change the path to the input.txt and output.txt accordingly
-    "cmd": "g++.exe ${file_name} -o ${file_base_name}.exe && ${file_base_name}.exe < \"C:\\Users\\frey7\\Documents\\cp\\input.txt\" > \"C:\\Users\\frey7\\Documents\\cp\\output.txt\"",
+    "cmd": "g++ ${file_name} -o ${file_base_name}.exe && ${file_base_name}.exe < \"C:\\Users\\frey7\\Documents\\cp\\input.txt\" > \"C:\\Users\\frey7\\Documents\\cp\\output.txt\"",
     "working_dir": "${file_path}",
     "selector": "source.c, source.cpp",
     "shell": true,
+    "variants": [
+    	{
+    		"name": "Advanced",
+    		"cmd": "g++ -Wall -Weffc++ -pedantic -pedantic-errors -Wextra -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Wfloat-equal -Wformat=2 -Wformat-nonliteral -Wformat-security -Wformat-y2k -Wimport  -Winit-self  -Winline -Winvalid-pch  -Wmissing-field-initializers -Wmissing-format-attribute  -Wmissing-include-dirs -Wmissing-noreturn -Wno-sign-conversion -Wpacked  -Wpointer-arith -Wredundant-decls -Wshadow -Wstack-protector -Wstrict-aliasing=2 -Wswitch-default -Wswitch-enum -Wunreachable-code -Wunused -Wunused-but-set-variable -Wunused-parameter -Wvariadic-macros -Wwrite-strings ${file_name} -o ${file_base_name}.exe && ${file_base_name}.exe < \"C:\\Users\\frey7\\Documents\\cp\\input.txt\" > \"C:\\Users\\frey7\\Documents\\cp\\output.txt\"",
+    		"shell": true
+    	}
+    ]
 }
