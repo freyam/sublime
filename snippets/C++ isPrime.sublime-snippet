@@ -1,10 +1,12 @@
 <snippet>
 	<content><![CDATA[
 bool isPrime(ll n) {
-	if(n <= 1) return false;
-	for(ll i = 2; i*i <= n; ++i)
-		if(n%i == 0) return false;
-	return true;
+  if (n <= 1)
+    return false;
+  for (ll i = 2; i * i <= n; ++i)
+    if (n % i == 0)
+      return false;
+  return true;
 }
 ]]></content>
 	<tabTrigger>isPrime</tabTrigger>

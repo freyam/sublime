@@ -2,7 +2,7 @@
 	<content><![CDATA[
 auto start = std::chrono::high_resolution_clock::now();
 
-${1}
+${0}
 
 auto end = std::chrono::high_resolution_clock::now();
 ll elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end-start).count();

@@ -1,5 +1,7 @@
 <snippet> <content><![CDATA[
-vl v(n); for(auto &x : v) cin >> x;
+vl v(n);
+for (auto &x : v)
+  cin >> x;
 ]]></content> 
 	<tabTrigger>vcin</tabTrigger> 
 </snippet>

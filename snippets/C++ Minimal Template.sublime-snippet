@@ -6,8 +6,8 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-    ${1}
+  ${1}
 }
 ]]></content>
-	<tabTrigger>minimal</tabTrigger>
+	<tabTrigger>cpp1</tabTrigger>
 </snippet>

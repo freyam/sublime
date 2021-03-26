@@ -2,19 +2,15 @@
 vector<long long> factorial(10);
 
 void fact(ll n) {
-    ll res = 1;
-    factorial[0] = factorial[1] = 1; 
-    for (ll i = 2; i <= n; i++)
-    	factorial[i] = factorial[i-1] * i;
+  ll res = 1;
+  factorial[0] = factorial[1] = 1;
+  for (ll i = 2; i <= n; i++)
+    factorial[i] = factorial[i - 1] * i;
 }
 
-ll nPr(ll n, ll r) {
-    return factorial[n]/factorial[r]; 
-}
+ll nPr(ll n, ll r) { return factorial[n] / factorial[r]; }
 
-ll nCr(ll n, ll r) {
-    return factorial[n]/(factorial[r]*factorial[n- r]); 
-}
+ll nCr(ll n, ll r) { return factorial[n] / (factorial[r] * factorial[n - r]); }
 ]]></content> 
-	<tabTrigger>fact</tabTrigger>
+	<tabTrigger>combinatorics</tabTrigger>
 </snippet>

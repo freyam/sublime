@@ -1,21 +1,22 @@
 <snippet> <content><![CDATA[
-void bfs(ll node, vl& dis) {
-    vector<bool> vis(adj.size(), false);
-    queue<ll> q;
-    q.push(node);
-    vis[node] = true;
-    dis[node] = 0;
- 
-    while(!q.empty()) {
-        ll cur = q.front(); q.pop();
-        for(auto x : adj[cur]) {
-            if(!vis[x]) {
-                q.push(x);
-                vis[x] = true;
-                dis[x] = 1 + dis[cur];
-            }
-        }
+void bfs(ll node, vl &dis) {
+  vector<bool> vis(adj.size(), false);
+  queue<ll> q;
+  q.push(node);
+  vis[node] = true;
+  dis[node] = 0;
+
+  while (!q.empty()) {
+    ll cur = q.front();
+    q.pop();
+    for (auto x : adj[cur]) {
+      if (!vis[x]) {
+        q.push(x);
+        vis[x] = true;
+        dis[x] = 1 + dis[cur];
+      }
     }
+  }
 }
 ]]></content> 
 	<tabTrigger>bfs</tabTrigger>

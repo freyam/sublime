@@ -1,21 +1,22 @@
 <snippet>
 	<content><![CDATA[
-vector <int> factors;
+vector<int> factors;
 void factoriz(int n) {
-    int sqrtn = sqrt(n);
-    for(int i = 0; i < int(prime.size()) && prime[i] <= sqrtn; i++) {
-        if (sieve[n] == 0) break;
-        if(n % prime[i] == 0) {
-            while(n % prime[i] == 0) {
-                n /= prime[i];
-                factors.push_back(prime[i]);
-            }
-            sqrtn = sqrt(n);
-        }
+  int sqrtn = sqrt(n);
+  for (int i = 0; i < int(prime.size()) && prime[i] <= sqrtn; i++) {
+    if (sieve[n] == 0)
+      break;
+    if (n % prime[i] == 0) {
+      while (n % prime[i] == 0) {
+        n /= prime[i];
+        factors.push_back(prime[i]);
+      }
+      sqrtn = sqrt(n);
     }
-    if(n != 1) {
-        factors.push_back(n);
-    }
+  }
+  if (n != 1) {
+    factors.push_back(n);
+  }
 }
 ]]></content>
 	<tabTrigger>factors</tabTrigger>

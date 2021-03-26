@@ -5,18 +5,19 @@ vector<int> prime;
 vector<bool> sieve(mxn); // 0 if prime
 
 void sievetill(int n) {
-	sieve[0] = sieve[1] = 1;
-	prime.push_back(2);
-	for(int i = 4; i <= n; i += 2)
-		sieve[i] = 1;
+  sieve[0] = sieve[1] = 1;
+  prime.push_back(2);
+  for (int i = 4; i <= n; i += 2)
+    sieve[i] = 1;
 
-	for(int i = 3; i*i <= n; i += 2)
-		if(!sieve[i])
-			for(int j = i*i; j <= n; j += 2*i)
-				sieve[j] = 1;
+  for (int i = 3; i * i <= n; i += 2)
+    if (!sieve[i])
+      for (int j = i * i; j <= n; j += 2 * i)
+        sieve[j] = 1;
 
-	for(int i = 3; i <= n; i += 2)
-		if(!sieve[i]) prime.push_back(i);
+  for (int i = 3; i <= n; i += 2)
+    if (!sieve[i])
+      prime.push_back(i);
 }
 ]]></content>
 	<tabTrigger>sieve</tabTrigger>

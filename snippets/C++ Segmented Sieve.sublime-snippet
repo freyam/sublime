@@ -2,28 +2,30 @@
 	<content><![CDATA[
 vector<bool> seg(mxn);
 int segmentedSieve(int a, int b) {
-	if(a == 1) a = 2;
+  if (a == 1)
+    a = 2;
 
-	for(int i = 0; i < int(prime.size()) && prime[i]*prime[i] <= b; ++i) {
-		int p = prime[i];
-		int j = p*p;
-		if(j < a) j = (a + p - 1)/p * p;
+  for (int i = 0; i < int(prime.size()) && prime[i] * prime[i] <= b; ++i) {
+    int p = prime[i];
+    int j = p * p;
+    if (j < a)
+      j = (a + p - 1) / p * p;
 
-		while(j <= b) {
-			seg[j - a] = 1;
-			j += p;
-		}
-	}
+    while (j <= b) {
+      seg[j - a] = 1;
+      j += p;
+    }
+  }
 
-	int res = 0;
-	for(int i = a; i <= b; ++i)
-		if(!seg[i - a]) {
-			cout << i << " ";
-			res++;
-		}
-	cout << endl;
+  int res = 0;
+  for (int i = a; i <= b; ++i)
+    if (!seg[i - a]) {
+      cout << i << " ";
+      res++;
+    }
+  cout << endl;
 
-	return res;
+  return res;
 }
 ]]></content>
 	<tabTrigger>segsieve</tabTrigger>
