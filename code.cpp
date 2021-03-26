@@ -14,7 +14,9 @@ typedef pair<ll, ll> pl;
 #define all(v) v.begin(), v.end()
 
 void solve() {
-  
+  string s;
+  cin >> s;
+  cout << s[0];
 }
 
 int main() {

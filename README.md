@@ -25,19 +25,21 @@ This gives you easy access to 1000s of awesome packages hosted on https://packag
 
 I use the following packages:
 
-* [**FileIcons**](https://packagecontrol.io/packages/FileIcons "Download Link") for a colourful minimal icon pack.
-
 <!-- * [**Ayu**](https://packagecontrol.io/packages/ayu "Download Link") as the overall theme. -->
 
 <!-- * [**Material Theme**](https://packagecontrol.io/packages/Material%20Theme "Download Link") as the color scheme. -->
 
-* [**Material Theme**](https://packagecontrol.io/packages/Material%20Theme "Download Link") as the color scheme.
+* [**FileIcons**](https://packagecontrol.io/packages/FileIcons "Download Link") for a colourful minimal icon pack.
+
+* [**10% Too Dull for My Tastes Color Scheme**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the color scheme.
 
 * [**Markdown Extended**](https://packagecontrol.io/packages/Markdown%20Extended "Download Link") for markdown syntax highlighting.
 
-* [**SideBarEnhancements**](https://packagecontrol.io/packages/SideBarEnhancements "Download Link") for extra control over the SideBar Folders.
+* [**Markdown Preview**](https://packagecontrol.io/packages/MarkdownPreview "Download Link") for previewing and building Markdown files.
 
+* [**LSP**](https://packagecontrol.io/packages/LSP "Download Link") for fancy IDE features and Intellisense.
 
+* [**Terminus**](https://packagecontrol.io/packages/Terminus "Download Link") for an integrated Terminal experience.
 
 ## Usage
 I have 3 groups set up at all times (G1 - Source Code, G2 - Input & G3 - Output). My `C++ Bolt.sublime-build` Sublime Build takes the input from `input.txt` and prints the outut to `output.txt`. This is very convenient for problems available on Codeforces, AtCoder, CodeChef, etc. You no longer need to use the terminal. It all happens in front of you.
@@ -56,20 +58,19 @@ I have also included three shell scripts - `precompile`,  `contest` & `playgroun
 
 ## Interface
 
-![My Interface](interface.png "My Interface")
+![My Interface](utils/interface.png "My Interface")
 
 * Theme : Adaptive
-* Color Scheme : Scotchy (from )
-* Icon Pack : A File Icon
+* Color Scheme : Scotchy (from 10% Too Dull for My Tastes)
+* Icon Pack : FileIcons
 * Font : Consolas
 
-
-## Upcoming
-~~* v2021.2 (February 2021): Integrated Terminal for complete control over the Editor.~~
-
-~~* v2021.3 (March 2021): LSP + CLANGD integration to get IDE-like features.~~
-
-
 Keep tinkering around with Sublime. It's really fun to play around with it.
+
+## Changelog
+* MegaWhale (March Patch): Integrated Terminal for complete control over the Editor + LSP + CLANGD integration to get IDE-like features.
+
+* HyphenKing (May 2021): Live Debugger.
+
 
 *Made with :heart: by Freyam.*
