@@ -51,7 +51,7 @@ I have also included three shell scripts - `precompile`,  `contest` & `playgroun
 
 ## Interface
 
-![My Interface](utils/interface.png "My Interface")
+![My Interface](utils/interfacee.png "My Interface")
 
 * Theme : Adaptive
 * Color Scheme : Scotchy (from 10% Too Dull for My Tastes)
