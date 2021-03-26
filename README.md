@@ -1,7 +1,4 @@
-# Setup for Programming Contests v2021.1
-
-A Clean Super Fast Programming Contests Setup for C++ Programmers [Sublime Text 4]
-
+# My Sublime Text 4 Setup
 
 ## Prerequisites
 ### Windows
