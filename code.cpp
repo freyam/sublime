@@ -18,7 +18,7 @@ void solve() {}
 int main() {
   cin.tie(0)->sync_with_stdio(0);
   int tc = 1;
-  // cin >> tc;
+  cin >> tc;
   while (tc--)
     solve();
   return 0;

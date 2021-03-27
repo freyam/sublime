@@ -15,7 +15,7 @@ typedef pair<ll, ll> pl;
 #define all(v) v.begin(), v.end()
 
 void solve() {
-    ${0}
+  ${0}
 }
 
 int main() {
