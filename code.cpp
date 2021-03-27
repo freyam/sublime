@@ -13,17 +13,12 @@ typedef pair<ll, ll> pl;
 #define sz(v) ((ll)v.size())
 #define all(v) v.begin(), v.end()
 
-void solve() {
-  for (int i = 0; i < 123456765; ++i) {
-    i += 2;
-    i--;
-  }
-}
+void solve() {}
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
   int tc = 1;
-  cin >> tc;
+  // cin >> tc;
   while (tc--)
     solve();
   return 0;
