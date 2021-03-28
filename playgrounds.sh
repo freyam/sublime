@@ -12,7 +12,7 @@ if [ -f "$FILE" ]; then
 
 else
     for i in $alpha; do
-    	cp code.cpp playground_$i.cpp
+    	cp template.cpp playground_$i.cpp
     	> input.txt
 		> output.txt
 	done

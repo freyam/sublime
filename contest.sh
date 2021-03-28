@@ -12,7 +12,7 @@ if [ -f "$FILE" ]; then
 
 else
     for i in $alpha; do
-    	cp code.cpp contest_$i.cpp
+    	cp template.cpp contest_$i.cpp
     	> input.txt
 		> output.txt
 	done

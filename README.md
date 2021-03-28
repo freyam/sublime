@@ -16,9 +16,9 @@
 
 ## Packages
 
-To install Packages (Extensions) in Sublime, you need to install the **Package Control** first to access the package repository. This can be easily done via the Command Palette (`CTRL + SHIFT + P`). Search for "Install Package Control" and select it to start installing.
+To install Packages (Extensions) in Sublime, you need to install the **Package Control** to access the package repository. This can be quickly done via the Command Palette (`CTRL + SHIFT + P`). Search for "Install Package Control" and select it to start installing.
 
-This gives you easy access to 1000s of awesome packages hosted on https://packagecontrol.io/. You can easily download this directly using the Command Pallete (`CTRL + SHIFT + P`) and searching for "Install Package". Now, just search for any packages' name and it will start downloading.
+This gives you easy access to 1000s of excellent packages hosted on https://packagecontrol.io/. You can easily download this directly using the Command Pallete (`CTRL + SHIFT + P`) and searching for "Install Package". Now, just search for any packages' name, and it will start downloading.
 
 I use the following packages:
 
@@ -35,20 +35,20 @@ I use the following packages:
 * [**Terminus**](https://packagecontrol.io/packages/Terminus "Download Link") for an integrated Terminal experience.
 
 ## Usage
-I have **3 groups** set up at all times (**G1 - Source Code**, **G2 - Input** & **G3 - Output**). My Sublime Build File (`C++ Bolt.sublime-build`) takes the input from `input.txt` and prints the outut to `output.txt`. This is very convenient for problems available on Codeforces, AtCoder, CodeChef, etc. You no longer need to use the terminal. It all happens in front of you.
+I have **3 groups** set up at all times (**G1 - Source Code**, **G2 - Input** & **G3 - Output**). My Sublime Build File (`C++ Bolt.sublime-build`) reads the STDIN from `input.txt` and redirects the STDOUT to `output.txt`. This is very convenient for problems available on Codeforces, AtCoder, CodeChef, etc., as you no longer need to use the terminal. It all happens in front of you.
 
-**Flow**: `input.txt` -->> `code.cpp` -->> `output.txt`!
+**Flow**: `input.txt` > `code.cpp` > `output.txt`!
 
 You can find all the files in this repository. Feel free to modify them according to your needs.
 
 ## Utility Scripts
-I have also included three shell scripts - **`precompile`,  `contest` & `playgrounds`**. which will elevate your sublime experience.
+I have also included three shell scripts - **`precompile`,  `contest` & `playgrounds`**, which will elevate your sublime experience.
 
 1. `precompile{.bat/.sh}` precompiles the standard library \<bits/stdc++.h\>. So, it approximately reduces the compilation time by a factor of 5.
 
-2. `contest{.bat/.sh}` is useful during contests. It duplicates the code from the `code.cpp` into several `contest_x.cpp` files which can be used parallelly in the contest. After the contest, run it again to delete all the `contest_x.cpp` and `contest_x.exe`.
+2. `contest{.bat/.sh}` is useful during contests. It duplicates the code from the `template.cpp` into several `contest_x.cpp` files, which can be used parallelly in the contest. After the contest, rerun it to delete all the `contest_x.cpp` and `contest_x.exe`.
 
-3. `playgrounds{.bat/.sh}` is useful when you quickly need some backup source code files to play around your code or debug them. Works the same way as `contest` but names the file `playground_x` instead.
+3. `playgrounds{.bat/.sh}` is practical when you quickly need backup source code files to play around with your code or debug them. Works the same way as `contest` but names the file `playground_x` instead.
 
 
 ## Interface
@@ -60,7 +60,7 @@ I have also included three shell scripts - **`precompile`,  `contest` & `playgro
 * **Icon Pack** : FileIcons
 * **Font** : Consolas
 
-Keep tinkering around with Sublime. It's really fun to play around with it.
+Keep tinkering around with Sublime. It's amusing to play around with it.
 
 ## Changelog
 * **MegaWhale** **(March'21 Patch)**: *Integrated Terminal for complete control over the Editor + LSP + CLANGD integration to get IDE-like features.*
@@ -68,4 +68,4 @@ Keep tinkering around with Sublime. It's really fun to play around with it.
 * **HyphenKing** **(May'21 Patch)**: *Live Debugger.*
 
 
-*Made with :heart: by Freyam.*
+*Made with :purple_heart: by Freyam.*
