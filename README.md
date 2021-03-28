@@ -62,10 +62,4 @@ I have also included three shell scripts - **`precompile`,  `contest` & `playgro
 
 Keep tinkering around with Sublime. It's amusing to play around with it.
 
-## Changelog
-* **MegaWhale** **(March'21 Patch)**: *Integrated Terminal for complete control over the Editor + LSP + CLANGD integration to get IDE-like features.*
-
-* **HyphenKing** **(May'21 Patch)**: *Live Debugger.*
-
-
-*Made with :purple_heart: by Freyam.*
+Made with :purple_heart: by Freyam.
