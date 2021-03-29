@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <streambuf>
 using namespace std;
 
 typedef long long ll;
@@ -13,12 +14,10 @@ typedef pair<ll, ll> pl;
 #define sz(v) ((int)v.size())
 #define all(v) v.begin(), v.end()
 
-void fileIO(string s) {
-  freopen(s + ".in", "r", stdin);
-  freopen(s + ".out", "w", stdout);
+void solve() {
+  freopen("shell.in", "r", stdin);
+  freopen("shell.out", "w", stdout);
 }
-
-void solve() { fileIO("shell"); }
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
