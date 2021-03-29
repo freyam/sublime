@@ -1,8 +1,6 @@
 <snippet> <content><![CDATA[
-void fileIO(string s) {
-  freopen(s + ".in", "r", stdin);
-  freopen(s + ".out", "w", stdout);
-}
+freopen("${1}.in", "r", stdin);
+freopen("${1}.out", "w", stdout);
 ]]></content> 
 	<tabTrigger>fileio</tabTrigger>
 </snippet>

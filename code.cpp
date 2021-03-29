@@ -13,12 +13,17 @@ typedef pair<ll, ll> pl;
 #define sz(v) ((int)v.size())
 #define all(v) v.begin(), v.end()
 
-void solve() {}
+void fileIO(string s) {
+  freopen(s + ".in", "r", stdin);
+  freopen(s + ".out", "w", stdout);
+}
+
+void solve() { fileIO("shell"); }
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
   int tc = 1;
-  cin >> tc;
+  // cin >> tc;
   while (tc--)
     solve();
   return 0;

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 alpha="A B C D E F"
 
