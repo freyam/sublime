@@ -1,7 +1,8 @@
 #!/bin/bash
 
-> input.txt
-> output.txt
-
 rm -f code
+
+: > input.txt
+: > output.txt
+
 cp utils/template.cpp code.cpp

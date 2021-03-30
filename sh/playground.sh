@@ -2,7 +2,7 @@
 
 alpha="1 2 3 4 5 6"
 
-# FILE should be the absolute path to the playground_1.cpp
+# FILE should store the absolute path to the playground_1.cpp
 FILE=/home/freyam/Documents/cp/playground_1.cpp
 if [ -f "$FILE" ]; then
     for i in $alpha; do
