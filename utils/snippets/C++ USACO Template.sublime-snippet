@@ -20,7 +20,7 @@ int main() {
   freopen("${1}.in", "r", stdin);
   freopen("${1}.out", "w", stdout);
 
-  ${2}
+  ${0}
 
   return 0;
 }
