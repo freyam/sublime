@@ -32,6 +32,8 @@ I use the following packages:
 
 * [**LSP**](https://packagecontrol.io/packages/LSP "Download Link") for the fancy IDE features and Intellisense.
 
+* [**SideBarEnhancements**](https://packagecontrol.io/packages/SideBarEnhancements "Download Link") for complete control over your project folders and files.
+
 * [**Terminus**](https://packagecontrol.io/packages/Terminus "Download Link") for an integrated Terminal experience.
 
 ## Usage
