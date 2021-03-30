@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo g++ /usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h
+# format: g++ $$location to stdc++.h file$$
+g++ /usr/include/x86_64-linux-gnu/c++/10/bits/stdc++.h
