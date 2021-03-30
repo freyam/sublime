@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 alpha="A B C D E F"
 
@@ -9,6 +9,7 @@ if [ -f "$FILE" ]; then
     	rm -f contest_$i.cpp
     	rm -f contest_$i
 	done
+	
 else
     for i in $alpha; do
     	cp utils/template.cpp contest_$i.cpp
