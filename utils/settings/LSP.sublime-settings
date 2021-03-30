@@ -1,0 +1,11 @@
+{
+    "auto_show_diagnostics_panel": "always",
+    "clients": {
+    "clangd": {
+        "enabled": true,
+  	 },
+    },
+    "lsp_format_on_save": true,
+    "show_diagnostics_panel_on_save": 1,
+    "show_view_status": false,
+}

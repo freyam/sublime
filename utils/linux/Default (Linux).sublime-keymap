@@ -1,0 +1,8 @@
+[
+    { 
+        "keys": ["alt+z"], "command": "toggle_terminus_panel"
+    },
+    { 
+        "keys": ["ctrl+alt+c"], "command": "cancel_build" 
+    },
+]

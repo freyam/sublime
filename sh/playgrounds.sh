@@ -9,10 +9,9 @@ if [ -f "$FILE" ]; then
     	rm -f playground_$i.cpp
     	rm -f playground_$i
 	done
-
 else
     for i in $alpha; do
-    	cp template.cpp playground_$i.cpp
+    	cp utils/template.cpp playground_$i.cpp
     	> input.txt
 		> output.txt
 	done
