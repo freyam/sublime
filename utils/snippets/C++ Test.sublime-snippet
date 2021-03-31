@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ll n = 7;
+int n = 7;
 cin >> n;
 string s = "Test Passed!";
 cin >> s;
