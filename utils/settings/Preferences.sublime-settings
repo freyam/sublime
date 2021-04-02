@@ -25,7 +25,7 @@
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
 	"tab_completion": false,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"word_wrap": true,
 	"font_size": 15,
