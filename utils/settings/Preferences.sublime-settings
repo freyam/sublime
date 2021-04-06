@@ -29,4 +29,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"word_wrap": true,
 	"font_size": 15,
+	"preview_on_click": false,
 }
