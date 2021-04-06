@@ -17,6 +17,7 @@ typedef pair<ll, ll> pl;
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);
+  
   freopen("${1}.in", "r", stdin);
   freopen("${1}.out", "w", stdout);
 
