@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+#include <stdio.h>
+
+int main() {
+  ${0}
+}
+]]></content>
+	<tabTrigger>notcpp</tabTrigger>
+</snippet>
