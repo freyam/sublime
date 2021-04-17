@@ -26,6 +26,8 @@ I use the following packages:
 
 * [**10% Too Dull for My Tastes Color Scheme**](https://packagecontrol.io/packages/10%25%20Too%20Dull%20for%20My%20Tastes%20Color%20Scheme "Download Link") for the color scheme.
 
+* [**BracketHighlighter**](https://packagecontrol.io/packages/BracketHighlighter "Download Link") for bracket highlighting.
+
 * [**Markdown Extended**](https://packagecontrol.io/packages/Markdown%20Extended "Download Link") for markdown syntax highlighting.
 
 * [**Markdown Preview**](https://packagecontrol.io/packages/MarkdownPreview "Download Link") for previewing and building Markdown files.
