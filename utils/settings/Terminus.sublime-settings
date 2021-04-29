@@ -1,7 +1,8 @@
 {
-	"theme": "tomorrow-night",
+	"theme": "spacegray",
 	"view_settings": {
         "font_size": 12,
         "font_face": "Consolas",
     },
+    "256color": true,
 }
