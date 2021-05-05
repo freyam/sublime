@@ -83,5 +83,3 @@ I have also included three shell scripts - **`precompile`,  `contest` & `playgro
 * **Font** : Consolas
 
 Keep tinkering around with Sublime. It's amusing to play around with it.
-
-Made with :purple_heart: by Freyam.
